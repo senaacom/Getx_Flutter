@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
 import '../../../core/mutable/theme/colors.dart';
-import '../../../core/mutable/widgets/image/image_asset.dart';
+import '../../../core/mutable/widgets/image/imageAsset.dart';
 import '../../home/screens/home_page.dart';
 
 class SplashPage extends StatefulWidget {
