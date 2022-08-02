@@ -4,6 +4,8 @@ import '../../../features/crew/bindings/crew_binding.dart';
 import '../../../features/crew/screens/crew_page.dart';
 import '../../../features/home/bindings/home_binding.dart';
 import '../../../features/home/screens/home_page.dart';
+import '../../../features/marine/bindings/marine_bindings.dart';
+import '../../../features/marine/screens/marine_page.dart';
 import '../../../features/splash/bindings/splash_bindings.dart';
 import '../../../features/splash/screens/splash_page.dart';
 
@@ -25,6 +27,11 @@ class AppPages {
       name: Routes.CREW,
       page: () => CrewPage(),
       binding: CrewBinding(),
+    ),
+    GetPage(
+      name: Routes.MARINE,
+      page: () => MarinePage(),
+      binding: MarineBinding(),
     ),
   ];
 }

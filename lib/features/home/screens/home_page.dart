@@ -60,7 +60,11 @@ class HomePage extends StatelessWidget {
     return CustomListTile(
       fontSize: 15,
       text: 'Marine',
-      onTap: () {},
+      onTap: () {
+        Get.toNamed(
+          Routes.MARINE,
+        );
+      },
     );
   }
 
