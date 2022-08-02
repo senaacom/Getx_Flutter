@@ -8,7 +8,7 @@ class CrewController extends GetxController {
       "name": "Leo",
       "surname": "Stewens",
       "nationality": "British",
-      "title": "Machine Skinny ",
+      "title": "Machine Skinny",
       "certificates": [
         "Engine Room Resource Management (ERM) Certification",
         "Electronic Chart Display And Information System (ECDIS) Certificate",

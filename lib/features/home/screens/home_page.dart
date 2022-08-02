@@ -52,7 +52,11 @@ class HomePage extends StatelessWidget {
     return CustomListTile(
       fontSize: 15,
       text: 'Settings',
-      onTap: () {},
+      onTap: () {
+        Get.toNamed(
+          Routes.SETTINGS,
+        );
+      },
     );
   }
 

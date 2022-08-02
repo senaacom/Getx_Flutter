@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
@@ -138,9 +139,9 @@ class _CrewPageState extends State<CrewPage> {
 
   CustomText _crewSubtitle(int index) {
     return CustomText(
-      text: CrewController().crews[index]['title'] +
+      text: (CrewController().crews[index]['title'] +
           ' / ' +
-          CrewController().crews[index]['nationality'],
+          CrewController().crews[index]['nationality']),
       textColor: AppColors.white,
       fontSize: 15,
       fontWeight: FontWeight.w300,
