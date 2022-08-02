@@ -1,12 +1,18 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class CustomDivider extends StatelessWidget {
-  const CustomDivider({Key? key}) : super(key: key);
+  double? height;
+  CustomDivider({
+    Key? key,
+    this.height,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Divider(
+    return Divider(
       thickness: 0.5,
+      height: height,
     );
   }
 }

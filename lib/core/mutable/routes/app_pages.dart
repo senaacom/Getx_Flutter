@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../../../features/crew/bindings/crew_binding.dart';
+import '../../../features/crew/screens/crew_page.dart';
 import '../../../features/home/bindings/home_binding.dart';
 import '../../../features/home/screens/home_page.dart';
 import '../../../features/splash/bindings/splash_bindings.dart';
@@ -18,6 +20,11 @@ class AppPages {
       name: Routes.HOME,
       page: () => const HomePage(),
       binding: HomeBinding(),
-    )
+    ),
+    GetPage(
+      name: Routes.CREW,
+      page: () => CrewPage(),
+      binding: CrewBinding(),
+    ),
   ];
 }

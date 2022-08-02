@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
+import '../../../core/mutable/routes/app_pages.dart';
 import '../../../core/mutable/theme/colors.dart';
 import '../../../core/mutable/widgets/divider/divider.dart';
 import '../../../core/mutable/widgets/image/backgroundImage.dart';
@@ -66,7 +68,11 @@ class HomePage extends StatelessWidget {
     return CustomListTile(
       fontSize: 15,
       text: 'Crew',
-      onTap: () {},
+      onTap: () {
+        Get.toNamed(
+          Routes.CREW,
+        );
+      },
     );
   }
 
